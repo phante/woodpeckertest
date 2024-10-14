@@ -8,3 +8,6 @@ steps:
     commands:
       - hugo version
       - echo "Prova" > prova.txt
+      - cp prova.txt /var/www/test/prova.txt
+    volumes:
+      - /var/www/test:/var/www/test
