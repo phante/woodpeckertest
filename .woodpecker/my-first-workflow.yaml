@@ -7,3 +7,4 @@ steps:
     image: ghcr.io/gohugoio/hugo:v0.135.0
     commands:
       - hugo version
+      - echo "Prova" > prova.txt
