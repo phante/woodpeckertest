@@ -4,9 +4,8 @@ when:
 
 steps:
   - name: build
-    image: ghcr.io/gohugoio/hugo:v0.135.0
+    image: debian
     commands:
-      - hugo version
       - echo "Prova" > prova.txt
       - cp prova.txt /var/www/test/prova.txt
     volumes:
